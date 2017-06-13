@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Lilia´s Notes</title>
+</head>
+<body>
+<div><h1>Getting Started with HTML</h1></div>
+
+<div>
+<h2>WWW - Basics of the web </h2>
+<ul>
+<li><b>Web:</b> Collection of HTML documents</li>
+<li><b>HTML (Hypertext Market Language):</b> Main type of document on the web - Basic language for almost every web page</li>
+<li><b>Hyperlinks (links):</b> Connections between HTML documents/pages </li>
+</ul>
+</div>
+
+<div>
+<h2>Components of the web</h2>
+<dl>
+<dt><b>A - Browser</b></dt>
+<dd>A program that runs on your computer to display files found on the web</dd>
+<dt><b>B - Internet:</b></dt>
+<dd>The world's largest computer network</dd>
+<dt><b>C - HTTP: </b></dt>
+<dd>Main protocol on the web</dd>
+<dt><b>D - Servers:</b></dt>
+<dd>Computers that host the files that make up the web</dd>
+</dl>
+</div>
+
+<div>
+<h2>More about HTML</h2>
+  <h4>Is made up of:</h4>
+  <ul>
+<li>text content</li>
+<li>markup (what the context looks like)</li>
+<li>reference to others documents </li>
+<li>links to other pages</li>
+</ul>
+</div>
+
+<div>
+<h2>**Tags**</h2>
+HTML Markup is made of "tags"
+<ul>
+<li>Typical structure of tag: &lt;Name&gt; Content &lt;/Name&gt;</li>
+<li>All the structure is called Element</li>
+<li>Tag Parts: Open tag (&lt;Name&gt;) Closing tag (&lt;/Name&gt;)</li>
+<li>Fundamental Difference between open and closing tag: Slash in the closing tag</li>
+</ul>
+
+  <table border="1">
+    <tr>
+<td><h3>Bold tag</h3></td>
+<td>Structure: &lt;b&gt; content &lt;/b&gt;</td>
+</tr>
+<tr>
+<td><h3>Italic tag</h3></td>
+<td>Structure: &lt;em&gt; content &lt;/em&gt;</td>
+</table>
+</div>
+
+<div>
+<h3><em>HTML Attributes</em></h3>
+<p>Tags have and use multiple attributes. <br>
+Structure to include an attribute:<br>
+&lt;tag attr="value"&gt; content &lt;/tag&gt;</p>
+
+<p>Example: Anchor tag structure. <br>
+Anchor tag is for making links &lt;a  href="www.somepage.com"&gt; this the page &lt;/a&gt; <br>
+<em>href</em> is the attribute name <br>
+<em>www.somepage.com</em> is the value of the attribute</p>
+</div>
+
+<div>
+  <table border="1">
+<tr>
+  <td><h3>Image tag (for include images)</h3></td>
+<td>Structure with some attributes: &lt;img scr="url" alt="text" &gt;<br>
+Image is a tag without closing tag. This kind of tags are called "void tags" because they have not content </td>
+</tr>
+<tr>
+<td><h3>Whitespace - br tag</h3></td>
+<td>It's a void and inline tag <br>
+Structure: &lt;br&gt;</td>
+</tr>
+<tr>
+  <td><h3>Paragraph (p tag)</h3></td>
+<td>Structure: &lt;p&gt; content &lt;/p&gt;</td>
+</tr>
+</table>
+</div>
+
+<div>
+<h2><em>Inline/Block elements</em></h2>
+<p>Block- create an invisible box around the text with height and widht<br>
+Examples of block elements: &lt;p&gt; &lt;form&gt;  &lt;div&gt;</p>
+<p>Inline - act as a return<br>
+Examples of inline elements: &lt;br&gt; &lt;em&gt; &lt;img&gt; &lt;strong&gt; &lt;a&gt;</p>
+</div>
+
+<div>
+<h2><em>Container Elements</em></h2>
+<p>Attribute class in span and div comes from CSS Languaje </p>
+
+<table border="1">
+<tr>
+  <td><h3>Span tag </h3></td>
+</tr>
+<tr>
+<td>(Inline element)</td>
+<td>Examples</td>
+</tr>
+<tr>
+<td>Structure:<br>
+  &nbsp; &lt;span&gt; content &lt;/span&gt;</td>
+<td>&nbsp; &lt;span class="foo"&gt; content &lt;/span&gt;</td>
+</tr>
+<tr>
+  <td><h3>Div tag </h3></td>
+</tr>
+<tr>
+<td>(Block element)</td>
+<td>Examples</td>
+</tr>
+<td>Structure:<br>
+  &nbsp; &lt;div&gt; content &lt;/div&gt; </td>
+<td>&nbsp; &lt;div class="bar"&gt; content &lt;/div&gt; </td>
+</tr>
+</table>
+</div>
+
+<div>
+<h2>HTML Documents Structure</h2>
+<p>Typical form </p>
+
+</p>&lt;!DOCTYPE HTML&gt; <br>
+&lt;html&gt; <br>
+&nbsp; &lt;head&gt; <br>
+&nbsp; &nbsp; &lt;title&gt; Title &lt;/title&gt; <br>
+&nbsp; &nbsp; &ltbody&gt<br>
+Content <br>
+&nbsp; &nbsp; &lt/body&gt <br>
+&nbsp; &lt;/head&gt; <br>
+&lt;/html&gt; </p>
+</div>
+
+<div>
+<p>Explanation of the basic parts of HTML document: </p>
+<table border="1">
+  <tr>
+    <td>&lt;!DOCTYPE HTML&gt;</td>
+    <td>(Document type)</td>
+  </tr>
+  <tr>
+    <td>&lt;html&gt;</td>
+    <td>(Opening tag html - surrounds the entire document)</td>
+  </tr>
+  <tr>
+    <td>&lt;head&gt;</td>
+    <td>(Meta-data important for JavaScript and CSS) (opening tag)</td>
+  </tr>
+  <tr>
+    <td>&lt;title&gt;Title&lt;/title&gt;</td>
+    <td>(Title of web page - appaer in the top browser window o in browser tab)</td>
+  </tr>
+  <tr>
+    <td>&lt;body&gt;Content&lt;/body&gt;</td>
+    <td>(Content of web page)</td>
+  </tr>
+  <tr>
+    <td>&lt;/head&gt;</td>
+    <td>(closing tag head)</td>
+  </tr>
+  <tr>
+    <td>&lt;/html&gt;</td>
+    <td>(closing tag html)</td>
+  </tr>
+</table>
+</div>
+<div>
+<h1>Exploring the Web</h1>
+<ul>
+<li>With options as Development Tools of Google Chrome
+we can see the elements of web page</li>
+<li>All visible elements are rectangular in a web page</li>
+<li>if you dig deep enough into the structure you can read all the text that shows up on the page</li>
+</ul>
+</div>
+<div>
+<h2>HTML and CSS - are both languages -</h2>
+<ul>
+<li>"DOM" (Document Object Model) - the tree-like structure of a page</li>
+<li>DOM is a standard convention for representing and interacting with elements in HTML</li>
+<li>The nodes of every document are organized in a tree structure,
+called the DOM tree</li>
+<li>A cross-platform and language-independent convention for representing and interacting
+with objects in HTML (and other markup languages).</li>
+</ul>
+</div>
+
+<div>
+<ul>
+<li><b>HTML</b> controls the "structure" of a web page</li>
+<li>Basic word in HTML is a tag</li>
+<li>Browser turns HTML tags into elements that form a tree</li>
+<li>Any element is defined by tags (starting tag and ending tag) <br>
+&lt;tag&gt; Content &lt;/tag&gt;
+<br>(Content could be text, empty or other element)</li>
+Any tag has a type and atributes with values
+<br>Example:&lt;h1 class="article"&gt; content &lt;/h1&gt;
+</ul>
+</div>
+
+<div>
+<ul>
+<li><b>CSS</b> controls the "style" of a page (how it looks)</li>
+<li>Cascading Style Sheets - CSS - style sheet language used for describing the look and formatting of a document written in a markup language</li>
+<li>Specific syntax and rules to change how elements look on the page </li>
+</ul>
+</div>
+</body>
+</html>
